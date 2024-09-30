@@ -1,16 +1,12 @@
+import platform
+import sys
 
-"""
-This module contains a simple add function and a main function for demonstration.
-"""
-
-def add(a, b):
-    """Return the sum of a and b."""
-    return a + b
-
-def main():
-    """Prints 'Hello, world!' when executed."""
-    print("Hello, world!")
+def os_and_sys_version():
+    """Returns the current Python version and OS name"""
+    python_version = platform.python_version()
+    os_name = platform.system()  # This returns 'Windows', 'Linux', etc.
+    
+    return python_version, os_name
 
 if __name__ == "__main__":
-    main()
-
+    print(os_and_sys_version())
