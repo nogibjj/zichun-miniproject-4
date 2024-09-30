@@ -29,7 +29,7 @@ pytest test_main.py
 ## CI/CD
 
 The CI/CD pipeline runs the following:
-- Tests across 3 Python versions: 3.8, 3.9, and 3.10.
+- Tests across 3 Python versions: 3,7, 3.8, 3.9, 3.10 and 3.11.
 - Tests on both Ubuntu and Windows environments.
 
 Make sure to check the CI status badge to ensure that the latest build has passed.
