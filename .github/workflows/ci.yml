@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]   # Test on both Ubuntu and Windows
-        python-version: [3.8, 3.9, 3.10, 3.11] # Supported Python versions
+        python-version: ["3.8", "3.9", "3.10", "3.11"] # Supported Python versions
       fail-fast: false                        # Continue running even if one environment fails
 
     steps:
